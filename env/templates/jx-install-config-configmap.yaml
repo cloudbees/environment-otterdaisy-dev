@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQcclHviepINrlULqISBqaUzANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQxODcyYTFmNi0xOWM3LTQ4MmMtYWU2ZC05NWRkOWJiNWExMWEw
+    HhcNMTkwNTEwMTUwMTMxWhcNMjQwNTA4MTYwMTMxWjAvMS0wKwYDVQQDEyQxODcy
+    YTFmNi0xOWM3LTQ4MmMtYWU2ZC05NWRkOWJiNWExMWEwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCy+8pW843XMGDfdNQ+UP8j/ULMFdNHR0XHmR7XD8yJ
+    Gn7RL08hRcZptDKsGJvwL3TiUzVRB22ruULbpEPGkM6aRncnsCOdAbBHG7I7kqll
+    ueuVbElz7Q6uO5LAEjWPAhNHtWIBIz4DXZHgvHp9Tr6u+MtHAbK/Zt533Zf0LIEB
+    Q7Ju8OuMP7k2zznVZm0Iehyl/bTc2hG5DRJ9ueJNmZwCw2caBa5jNTEzDkXda4Rn
+    5p1uZQkjzC0kyKDdokOjfYW+ZNS+vWME/XBuMF66Hh2RuH2aWZlJIxeD/SiMKeH1
+    i+46Ffad1xwFoL+rvX5rDhEBNE0JkYq12bFWiQBLfeq7AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBI
+    tW3bqu4atwXJ5YwdVBWwn2XtuvRyGrCw4LLDC3upeH+vW+78o6P01slUh+MFpoq2
+    iQGv3+EouPLFsNH32Rm8C3HsI5QB7lngFE1u3eVuYzFNuDER2FU6hXzb7nt1VPWj
+    9wCLAs0ebR39oJGRwtTnClAsDhZ5U96fwDwywV3NrmV4jc732adUBST0+E9kdzJB
+    RfOjxWMwd6qw2fG8hSUT4RwcVUiqJ0Yq9JoeaiJh2gNBZEcM1Yd7Y3Bna5oMxG8U
+    xmq5gZaIIFdkxVU7QqxRpi+VtJ0+msJ3t+Nos2WoLVWGL8irgOhYYS2IUZ9S4lbb
+    xaEA/0SQLmM8/46YpiLg
+    -----END CERTIFICATE-----
+  clusterName: otterdaisy
+  jx-install-version: 2.0.0-dev+5b2cda58a
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.205.29.114
+  systemVaultName: jx-vault-otterdaisy
+  zone: europe-west1-b
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
